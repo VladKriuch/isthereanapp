@@ -1,4 +1,4 @@
-* { margin: 0; padding: 0; border: none; }
+* { margin: 0; padding: 0; border: 0; }
 
 .header-div{
     margin: 0;
@@ -8,8 +8,31 @@
     color: white;
     width:100%;
 }
+.header-h1-ideas-from{
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Darker Grotesque;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: inline;
+}
+
+.header-h1-twitter{
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Darker Grotesque;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    display: inline;
+}
 .header-title-group{
-    margin-top: 15%;
+    /*margin-top: 15%;*/
     margin-bottom: 15%;
 }
 
@@ -18,4 +41,87 @@
     height: auto;
     display: flex;
     align-items: flex-end;
+}
+
+
+.user-avatar{
+    border-radius: 100px;
+    width: 44px;
+    height: 44px;
+}
+
+#main-div{
+    position: relative;
+    left: 7.5%;
+    width: 75%;
+}
+
+.element{
+    padding-left: 35%;
+    display: grid;
+    align-items: start;
+    grid-template-columns: 48px auto;
+    column-gap: 10px;
+    margin-bottom: 1%;
+
+}
+
+.image-div{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+
+.text-div{
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.username{
+    color: #0F1419;
+    font-family: SF Compact Display;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.tweet{
+    flex: 1 0 0;
+    color: #0F1419;
+    font-family: SF Compact Display;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+
+
+    white-space: normal !important;
+    max-width: 250px;
+    word-wrap: break-word;
+    margin-bottom: 15px;
+}
+
+.tweet-link{
+    /*padding-top: 10px;*/
+    color: #1DA1F2;
+    font-family: SF Compact Display;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 100%;
+  background-color: #EBEEF0;
+  height: 1px;
+  margin-top: 10px;
+    margin-bottom: 10px;
 }
