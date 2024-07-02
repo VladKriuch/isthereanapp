@@ -33,7 +33,7 @@
 }
 .header-title-group{
     /*margin-top: 15%;*/
-    margin-bottom: 15%;
+    margin-bottom: 0%;
 }
 
 #clouds{
@@ -48,6 +48,11 @@
     border-radius: 100px;
     width: 44px;
     height: 44px;
+}
+
+.app-icon{
+    width: 16px;
+    height: 16px;
 }
 
 #main-div{
@@ -86,6 +91,18 @@
     font-weight: 500;
     line-height: normal;
     margin-bottom: 5px;
+}
+
+.appname{
+    color: #0F1419;
+    font-family: SF Compact Display;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
+    margin-bottom: 5px;
+    
+    align-items: flex-end;
 }
 
 .tweet{
